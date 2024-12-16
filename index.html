@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <!-- 3-api -->
+    <section>
+        <h2>Fakt Generatori</h2>
+        <button id="generateFact">Fakt chiqarish</button>
+        <p id="fact"></p>
+    </section>
+
+    <hr>
+
+    <!-- 4-api -->
+    <section>
+        <h2>Valyuta Konvertatsiyasi</h2>
+        <label for="fromCurrency">Valyuta:</label>
+        <select id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="UZS">UZS</option>
+        </select>
+        <label for="toCurrency">dan:</label>
+        <select id="toCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="UZS">UZS</option>
+        </select>
+        <label for="amount">Miqdor:</label>
+        <input type="number" id="amount" placeholder="Miqdorni kiriting">
+        <button id="convertCurrency">Hisoblash</button>
+        <p id="conversionResult"></p>
+    </section>
+
+    <hr>
+
+  <!-- 5-api -->
+    <section>
+        <h2>Tug'ilgan Kun Ma'nosi</h2>
+        <label for="birthDate">Sana:</label>
+        <input type="date" id="birthDate">
+        <button id="generateBirthdayFact">Fakt chiqarish</button>
+        <p id="birthdayFact"></p>
+    </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>
